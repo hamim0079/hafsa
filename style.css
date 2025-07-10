@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #ff9966, #ff5e62);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.left {
+    position: absolute;
+    top: 22%;
+    left: -11px;
+}
+.right {
+    position: absolute;
+    top: 22%;
+    left: 83%;
+}
+#h {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-size: 15px;
+}
+button {
+    background-color: #ff0000;
+    box-shadow: 0 0 30px 3px #eb6a02;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-size: 10px;
+    border: 3px dashed rgb(60, 255, 0);
+    position: absolute;
+    top: 65%;
+    left: 33%;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.dhong {
+    font-size: 15px;
+    width: 76%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 31%;
+    left: 12%;
+    font-family: "Arvo", serif;
+    font-weight: bold;
+}
